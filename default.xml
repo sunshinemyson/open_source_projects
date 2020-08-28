@@ -1,0 +1,6 @@
+<manifest>
+	<remote name="github" fetch="git@github.com"/>
+    <default remote="" revision="master" sync-j="2"/>
+    <project name="pytorch/pytorch.git" path="facebook/pytorch" />
+</manifest>
+
