@@ -1,0 +1,81 @@
+<manifest>
+	<remote name="github_http" fetch="https://github.com"/>
+	<remote name="google_git" fetch="https://android.googlesource.com"/>
+	<default remote="github_http" revision="master"/>
+
+	<project name="pytorch/pytorch" group="AI" path="pytorch/pytorch" />
+	<project name="pytorch/glow" group="AI" path="pytorch/glow" />
+
+	<project name="tensorflow/examples" group="AI" path="tensorflow/examples" />
+	<project name="tensorflow/tensorflow" group="AI" path="tensorflow/tensorflow" />
+	<project name="tensorflow/models" group="AI" path="tensorflow/models" />
+	<project name="tensorflow/mlir" group="AI" path="tensorflow/mlir" />
+
+	<project name="onnx/onnx" group="onnx" path="onnx/onnx" />
+	<project name="microsoft/onnxruntime" group="onnx" path="onnx/onnxruntime" />
+	<project name="daquexian/onnx-simplifier" group="onnx" path="onnx/tools/simplifier"/>
+
+	<project name="dmlc/tvm" group="AI" path="tvm/tvm" />
+	
+	<project name="XiaoMi/mace" group="AI" path="XiaoMi/mace" />
+	<project name="Tencent/ncnn" group="AI" path="Tencent/ncnn" />
+
+	<project name="google-coral/tflite" group="coral" path="google-coral/tflite" />
+
+	<project name="ARM-software/android-nn-driver" group="AI.framework" path="arm/armnn.android-nn-driver" />
+	<project name="ARM-software/armnn" group="AI.framework" path="arm/armnn"/>
+	<project name="ARM-software/ComputeLibrary" group="AI.framework" path="arm/ComputeLibrary"/>
+	<project name="ARM-software/ethos-n-driver-stack" group="AI.framework" path="armn/ethos-n-driver-stack"/>
+
+	<project name="PaddlePaddle/paddle-mobile" group="AI" path="baidu/paddle-mobile"/>
+	<project name="PaddlePaddle/paddle" group="AI" path="baidu/paddle"/>
+
+	<project name="alibaba/MNN" group="AI.framework" path="alibaba/MNN" />
+
+	<project name="apache/incubator-mxnet" group="AI" path="apache/mxnet" />
+
+	<project name="intel/intel-graphics-compiler" group="AI" path="intel/intel-graphics-compiler"/>
+	<project name="intel/compute-runtime" group="AI" path="intel/compute-runtime"/>
+	<!--project name="NervanaSystems/ngraph" group="AI" path="intel/ngraph"/-->
+	<!-- model compression/quantize tool -->
+	<!--project name="NervanaSystems/distiller" group="AI" path="interl/tool/distiller"/-->
+
+	<project name="JDAI-CV/DNNLibrary" group="AI.framework" path="JD/DNNLibrary"/>
+
+	<project name="CMU-Perceptual-Computing-Lab/openpose" group="AI.app" path="ai.app/openpose" />
+	<project name="kentsommer/tensorflow-posenet" group="AI.app" path="ai.app/tf-posenet" />
+	<project name="infocom-tpo/PoseNet-CoreML" group="AI.app" path="ai.app/coreml-posenet" />
+
+	<!--project name="graphcore/poplibs" group="AI" path="graphcore/poplibs"/-->
+	<!--project name="graphcore/popart" group="AI" path="graphcore/popart"/-->
+	<!--project name="graphcore/examples" group="AI" path="graphcore/examples"/-->
+	<!--project name="graphcore/tensorflow" group="AI" path="graphcore/tensorflow"/-->
+	<!--project name="graphcore/poprithms" group="AI" path="graphcore/poprithms"/-->
+
+	<project name="ARM-software/arm-trusted-firmware" group="Infrastructure" path="armn/trusted-firmware"/>
+
+	<project name="google/flatbuffers" group="utils" path="google/flatbuffer" />
+	<project name="gperftools/gperftools" group="utils" path="google/pgerftools" />
+	<!-- vcpkg is a package management tool for c++ libraries -->
+	<project name="microsoft/vcpkg" group="utils" path="microsoft/vcpkg"/>
+	<!-- RESTful library for cpp -->
+	<project name="microsoft/cpprestsdk" group="utils" path="microsoft/cpprestsdk"/>
+
+	<project name="isocpp/CppCoreGuidelines" group="cxx" path="cxx/CppCoreGuidelines" />
+	<!-- GSL is support library for the rules defined in core guideline -->
+	<project name="microsoft/GSL" group="cxx" path="cxx/GSL" />
+	<project name="microsoft/STL" group="cxx" path="cxx/microsoft-STL" />
+	<project name="abseil/abseil-cpp" group="cxx" path="cxx/abseil" />
+
+	<project name="clMathLibraries/clBLAS" group="math_lib" path="math/clBLAS" />
+	<project name="google/gemmlowp" group="math-lib" path="math/gemmlowp" />
+
+	<project name="DarLiner/Algorithm_Interview_Notes-Chinese" group="misc" path="misc/interview" />
+
+	<!-- Android repos -->
+	<project remote="google_git" name="platform/frameworks/hardware/interfaces" group="aosp" path="aosp/frameworks/hardware/interfaces" />
+	<project remote="google_git" name="platform/frameworks/ml" group="aosp" path="aosp/frameworks/ml" />
+	<project remote="google_git" name="platform/bionic" group="aosp" path="aosp/bionic" />
+
+</manifest>
+
