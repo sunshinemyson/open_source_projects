@@ -25,7 +25,7 @@
 	<project name="ARM-software/android-nn-driver" group="AI.framework" path="arm/armnn.android-nn-driver" />
 	<project name="ARM-software/armnn" group="AI.framework" path="arm/armnn"/>
 	<project name="ARM-software/ComputeLibrary" group="AI.framework" path="arm/ComputeLibrary"/>
-	<project name="ARM-software/ethos-n-driver-stack" group="AI.framework" path="armn/ethos-n-driver-stack"/>
+	<project name="ARM-software/ethos-n-driver-stack" group="AI.framework" path="arm/ethos-n-driver-stack"/>
 
 	<project name="PaddlePaddle/paddle-mobile" group="AI" path="baidu/paddle-mobile"/>
 	<project name="PaddlePaddle/paddle" group="AI" path="baidu/paddle"/>
@@ -52,7 +52,7 @@
 	<!--project name="graphcore/tensorflow" group="AI" path="graphcore/tensorflow"/-->
 	<!--project name="graphcore/poprithms" group="AI" path="graphcore/poprithms"/-->
 
-	<project name="ARM-software/arm-trusted-firmware" group="Infrastructure" path="armn/trusted-firmware"/>
+	<project name="ARM-software/arm-trusted-firmware" group="Infrastructure" path="arm/trusted-firmware"/>
 
 	<project name="google/flatbuffers" group="utils" path="google/flatbuffer" />
 	<project name="gperftools/gperftools" group="utils" path="google/pgerftools" />
