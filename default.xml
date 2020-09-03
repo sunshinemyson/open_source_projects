@@ -76,6 +76,8 @@
 	<project remote="google_git" name="platform/frameworks/hardware/interfaces" group="aosp" path="aosp/frameworks/hardware/interfaces" />
 	<project remote="google_git" name="platform/frameworks/ml" group="aosp" path="aosp/frameworks/ml" />
 	<project remote="google_git" name="platform/bionic" group="aosp" path="aosp/bionic" />
+	<project remote="google_git" name="platform/test/mlts/models" group="aosp" path="aosp/test/mlts/models" />
+	<project remote="google_git" name="platform/test/mlts/benchmark" group="aosp" path="aosp/test/mlts/benchmark" />
 
 </manifest>
 
