@@ -62,6 +62,7 @@
 	<project name="microsoft/cpprestsdk" group="utils" path="microsoft/cpprestsdk"/>
 
 	<project name="isocpp/CppCoreGuidelines" group="cxx" path="cxx/CppCoreGuidelines" />
+	<project name="arrayfire/arrayfire" group="cxx" path="cxx/arrayfile" />
 	<!-- GSL is support library for the rules defined in core guideline -->
 	<project name="microsoft/GSL" group="cxx" path="cxx/GSL" />
 	<project name="microsoft/STL" group="cxx" path="cxx/microsoft-STL" />
