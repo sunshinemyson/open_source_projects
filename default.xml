@@ -11,7 +11,6 @@
 	<project name="tensorflow/tensorflow" group="AI" path="tensorflow/tensorflow" />
 	<project name="tensorflow/models" group="AI" path="tensorflow/models" />
 	<project name="tensorflow/mlir" group="AI" path="tensorflow/mlir" />
-	<project name="google/iree" group="AI" path="tensorflow/iree" />
 
 	<project name="onnx/onnx" group="onnx" path="onnx/onnx" />
 	<project name="microsoft/onnxruntime" group="onnx" path="onnx/onnxruntime" />
@@ -29,7 +28,7 @@
 	<project name="ARM-software/ComputeLibrary" group="AI.framework" path="arm/ComputeLibrary"/>
 	<project name="ARM-software/ethos-n-driver-stack" group="AI.framework" path="arm/ethos-n-driver-stack"/>
 
-	<project name="PaddlePaddle/paddle-mobile" group="AI" path="baidu/paddle-mobile"/>
+	<project name="PaddlePaddle/paddle-Lite" group="AI" path="baidu/paddle-Lite"/>
 	<project name="PaddlePaddle/paddle" group="AI" path="baidu/paddle"/>
 
 	<project name="alibaba/MNN" group="AI.framework" path="alibaba/MNN" />
@@ -58,7 +57,7 @@
 
 	<project name="google/flatbuffers" group="utils" path="google/flatbuffer" />
 	<project name="gperftools/gperftools" group="utils" path="google/pgerftools" />
-	<project name="google/iree" group="AI.compiler" path="google/iree" />
+	<project name="google/iree" revision="main" group="AI.compiler" path="google/iree" />
 	<!-- vcpkg is a package management tool for c++ libraries -->
 	<project name="microsoft/vcpkg" group="utils" path="microsoft/vcpkg"/>
 	<!-- RESTful library for cpp -->
