@@ -1,6 +1,7 @@
 <manifest>
 	<remote name="github_http" fetch="https://github.com"/>
 	<remote name="google_git" fetch="https://android.googlesource.com"/>
+	<remote name="tsinghua_aosp" fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/"/>
 	<default remote="github_http" revision="master"/>
 
 	<project name="pytorch/pytorch" group="AI" path="pytorch/pytorch" />
@@ -10,6 +11,7 @@
 	<project name="tensorflow/tensorflow" group="AI" path="tensorflow/tensorflow" />
 	<project name="tensorflow/models" group="AI" path="tensorflow/models" />
 	<project name="tensorflow/mlir" group="AI" path="tensorflow/mlir" />
+	<project name="google/iree" group="AI" path="tensorflow/iree" />
 
 	<project name="onnx/onnx" group="onnx" path="onnx/onnx" />
 	<project name="microsoft/onnxruntime" group="onnx" path="onnx/onnxruntime" />
@@ -75,11 +77,11 @@
 	<project name="DarLiner/Algorithm_Interview_Notes-Chinese" group="misc" path="misc/interview" />
 
 	<!-- Android repos -->
-	<project remote="google_git" name="platform/frameworks/hardware/interfaces" group="aosp" path="aosp/frameworks/hardware/interfaces" />
-	<project remote="google_git" name="platform/frameworks/ml" group="aosp" path="aosp/frameworks/ml" />
-	<project remote="google_git" name="platform/bionic" group="aosp" path="aosp/bionic" />
-	<project remote="google_git" name="platform/test/mlts/models" group="aosp" path="aosp/test/mlts/models" />
-	<project remote="google_git" name="platform/test/mlts/benchmark" group="aosp" path="aosp/test/mlts/benchmark" />
+	<project remote="tsinghua_aosp" name="platform/frameworks/hardware/interfaces" group="aosp" path="aosp/frameworks/hardware/interfaces" />
+	<project remote="tsinghua_aosp" name="platform/frameworks/ml" group="aosp" path="aosp/frameworks/ml" />
+	<project remote="tsinghua_aosp" name="platform/bionic" group="aosp" path="aosp/bionic" />
+	<project remote="tsinghua_aosp" name="platform/test/mlts/models" group="aosp" path="aosp/test/mlts/models" />
+	<project remote="tsinghua_aosp" name="platform/test/mlts/benchmark" group="aosp" path="aosp/test/mlts/benchmark" />
 
 </manifest>
 
