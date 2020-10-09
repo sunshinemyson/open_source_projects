@@ -28,7 +28,7 @@
 	<project name="ARM-software/ComputeLibrary" group="AI.framework" path="arm/ComputeLibrary"/>
 	<project name="ARM-software/ethos-n-driver-stack" group="AI.framework" path="arm/ethos-n-driver-stack"/>
 
-	<project name="PaddlePaddle/paddle-Lite" group="AI" path="baidu/paddle-Lite"/>
+	<project name="PaddlePaddle/paddle-Lite" revision="develop" group="AI" path="baidu/paddle-Lite"/>
 	<project name="PaddlePaddle/paddle" group="AI" path="baidu/paddle"/>
 
 	<project name="alibaba/MNN" group="AI.framework" path="alibaba/MNN" />
