@@ -82,5 +82,7 @@
 	<project remote="tsinghua_aosp" name="platform/test/mlts/models" group="aosp" path="aosp/test/mlts/models" />
 	<project remote="tsinghua_aosp" name="platform/test/mlts/benchmark" group="aosp" path="aosp/test/mlts/benchmark" />
 
+	<project name="TheAlgorithms/C-Plus-Plus" group="cxx" path="computer_science/alg/C-Plus-Plus" />
+	<project name="TheAlgorithms/C" group="cxx" path="computer_science/alg/C" />
 </manifest>
 
